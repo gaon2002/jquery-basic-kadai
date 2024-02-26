@@ -1,12 +1,12 @@
 $(function(){
   // 1	「文字色変化」ボタンを押した際に、文字色が任意の色に更新されている
   $('#change-color').on('click', ()=>{
-    $('#target').css('color', blue);
+    $('#target').css('color', 'blue');
   });
 
   // 2	「文字内容変化」ボタンを押した際に、「Hello！」の文字内容に更新されている
   $('#change-text').on('click', ()=>{
-    $('target').text('Hello！')
+    $('#target').text('Hello！')
   });
 
   // 3	「フェードアウト」ボタンを押した際に、フェードアウトで文字が消える
@@ -19,4 +19,4 @@ $(function(){
     $('#target').fadeIn(2000);
   });
 
-})
+});
